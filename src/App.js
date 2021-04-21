@@ -8,7 +8,7 @@ function App() {
   var spec = ["!", "@", "#", "$", "%", "^", "&", "*"];
   var numb = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"];
   var alphNumb = alph.concat(numb);
-  var alphSpec = alph.concat(spec);
+  var alphSpec = alph.concat(spec); // now thats readable code
   var numbSpec = numb.concat(spec);
   var alphNumbSpec = numb.concat(spec.concat(alph));
 
@@ -20,7 +20,7 @@ function App() {
     passLength: 15
   })
 
-  function reverse(value) {
+  function reverse(value) { 
     if (value) {
       return false
     } else if (!value) {
@@ -95,29 +95,31 @@ function App() {
   }
 
   return (
-    <div class="container">
-      <div class="level">
+    <div class="contain">
+      <div class="top">
         <h1 class="level-item has-text-centered">
           Custom Password Generator
                 </h1>
       </div>
+      <div class="chuchu">
       <div class="level">
-        <label class="checkbox">
+        <label class="container">
           <input type="checkbox" name="letters" onChange={(e) => { handleChange(e) }} />
-          Letters
-            </label>
+            Letters
+              </label>
       </div>
       <div class="level">
-        <label class="checkbox">
+        <label class="container">
           <input type="checkbox" name="numbers" onChange={(e) => { handleChange(e) }} />
           Numbers
             </label>
       </div>
       <div class="level">
-        <label class="checkbox">
+        <label class="container">
           <input type="checkbox" name="special" onChange={(e) => { handleChange(e) }} />
           Special Characters
             </label>
+      </div>
       </div>
       <div class="level">
         <label class="slider">

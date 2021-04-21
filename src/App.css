@@ -1,0 +1,47 @@
+.contain {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+
+.level{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+h1{ 
+    font-weight: bolder;
+}
+
+.top{
+    background-color: rgba(12, 145, 12, 0.589);
+
+}
+
+label{
+    justify-content: center;
+    font-weight: bold;
+}
+
+.checkbox{
+
+}
+
+input{
+    margin-right: 15px;
+}
+
+button{
+    padding: 15px;
+    border-radius: 15px;
+    background-color: darkgreen;
+    color: white;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.chuchu{
+    width:20%;
+    align-self: center;
+}

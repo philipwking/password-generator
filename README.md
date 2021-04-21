@@ -1,2 +1,4 @@
-# password-generator
+# Password Generator
+
+Create a custom password.
  
