@@ -37,8 +37,8 @@ input{
 button{
     padding: 15px;
     border-radius: 15px;
-    background-color: darkgreen;
-    color: white;
+    background-color: white;
+    color: black;
     font-weight: bolder;
     font-size: x-large;
 }
